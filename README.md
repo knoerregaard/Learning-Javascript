@@ -48,10 +48,12 @@ Use operators in combination with your values. There exists different operators 
 | =             | assignment    |
 | +=            | addition      |
 | -=            | subtraction   |
-| *=            | multiplication|
-
+| \*=           | multiplication|
+| /=            | division      |
+| %=            | modulus       |
 
 #### Operators | String
+
 
 #### Operators | Comparison
 
