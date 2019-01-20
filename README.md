@@ -30,6 +30,12 @@ Reference
 Use operators in combination with your values. There exists different operators that take care of different task.
 
 #### Operators | Arithmetic
+
+| operator      | meaning |
+| ------------- | ------------- |
+| +             | Content Cell  |
+| -             | Content Cell  |
+
 - \+ &nbsp;&nbsp; addition
 - \- &nbsp;&nbsp; subtraction
 - \* &nbsp;&nbsp; multiplication
