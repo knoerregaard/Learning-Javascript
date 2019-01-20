@@ -31,22 +31,25 @@ Use operators in combination with your values. There exists different operators 
 
 #### Operators | Arithmetic
 
-| operator      | meaning |
+| operator      | meaning       |
 | ------------- | ------------- |
-| +             | Content Cell  |
-| -             | Content Cell  |
-
-- \+ &nbsp;&nbsp; addition
-- \- &nbsp;&nbsp; subtraction
-- \* &nbsp;&nbsp; multiplication
-- \/ &nbsp;&nbsp; division
-- \% &nbsp;&nbsp; modulus
-- \++ &nbsp;&nbsp; increment
-- \-- &nbsp;&nbsp; decrement
-
-
+| +             | addition      |
+| -             | subtraction   |
+| *             | multiplication|
+| /             | division      |
+| %             | modulus       |
+| ++            | increment     |
+| --            | decrement     |
 
 #### Operators | Assignment
+
+| operator      | meaning       |
+| ------------- | ------------- |
+| =             | assignment    |
+| +=            | addition      |
+| -=            | subtraction   |
+| *=            | multiplication|
+
 
 #### Operators | String
 
