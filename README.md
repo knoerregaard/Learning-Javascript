@@ -30,9 +30,9 @@ Reference
 Use operators in combination with your values. There exists different operators that take care of different task.
 
 #### Operators | Arithmetic
-- + for addition
-- - for subtraction
-- * for multiplication
+- (+) for addition
+- (-) for subtraction
+- (*) for multiplication
 #### Operators | Assignment
 
 #### Operators | String
