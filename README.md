@@ -30,7 +30,7 @@ Reference
 Use operators in combination with your values. There exists different operators that take care of different task.
 
 #### Operators | Arithmetic
-- \+  >> addition
+- \+  &nbsp;&nbsp; addition
 - \-  subtraction
 - \*  multiplication
 - \/  division
