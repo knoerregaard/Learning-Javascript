@@ -130,6 +130,7 @@ A function is a container where you can excute certain code in order to handle c
 JavaScript already have a bunch of functions that you are able to call. Here are a few of them:
 - console.log()
 - math.random()
+- Number.isNaN
 
 The term on the left is refering to the object where the method resides. So 'console' is the object and 'log()' is the method, and likewise with math.random().
 
@@ -138,7 +139,7 @@ Method often takes a paramter. The paramter is input to the function in order fo
 ```
 console.log("hello world")
 ```
-This will write 'hello world' to the console (eg browser console).
+The above example will write 'hello world' to the console (eg browser console).
 
 We can also write our own functions. Here is the basic function template:
 
