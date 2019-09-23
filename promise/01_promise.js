@@ -13,7 +13,7 @@
  * - fulfilled
  * - rejected
  */
-var handleStuff = (numb) => new Promise(function (resolve, reject) {
+let handleStuff = (numb) => new Promise(function (resolve, reject) {
     setTimeout(function () {
         if(1+1 == numb){
             resolve("Its perfekt")
@@ -27,9 +27,7 @@ handleStuff(2)
     .then(function (value) {
         console.log(value)
     })
-    .then(
-        console.log("in between")
-    )
+    .then(console.log("IN BETWEEN"))
     .catch((reason)=>
         console.log(reason)
     );

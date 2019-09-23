@@ -11,9 +11,9 @@ const request = require('request');
 const url = "https://api.darksky.net/forecast/4a6add7dfa5e5f659dba1a1523fe1022/56.565500,9.021940";
 
 // Callback example (from earlier)
-request.get(url, (err, result)=>{
-    console.log(JSON.parse(result.body).currently);
-})
+// request.get(url, (err, result)=>{
+//     console.log(JSON.parse(result.body).currently);
+// })
 
 console.log("End of application");
 

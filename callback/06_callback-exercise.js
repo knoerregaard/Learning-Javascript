@@ -10,7 +10,16 @@
  * 2. test your work
  */
 
-function sum(a, b){
-    return a+b;
+
+
+
+getSum(2, 2, (result)=>{
+    console.log(result);
+});
+
+function getSum(a, b, callback){
+    setTimeout(() => {
+        callback(a+b)
+    }, 2000);
 }
-console.log(sum(3,2));
+

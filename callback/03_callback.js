@@ -18,5 +18,4 @@ function MySlowNamer(question, callback) {
         callback("Klaus");
     }, 2000);
 
-    callback("We are waiting for the result")
 }
