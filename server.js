@@ -6,8 +6,12 @@ var app = express();
 app.use(express.static('xmlhttprequest'))
 
 
-app.get('/', function(req, res) {
+app.get('/01', function(req, res) {
     res.sendFile(path.join(__dirname + '/xmlhttprequest/xmlhttprequest_01.html'));
+});
+
+app.get('/02', function(req, res) {
+    res.sendFile(path.join(__dirname + '/xmlhttprequest/xmlhttprequest_02.html'));
 });
 
 
