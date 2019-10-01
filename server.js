@@ -4,8 +4,9 @@ var app = express();
 
 app.use(express.static('xmlhttprequest'))
 
-app.get('/', function (req, res) {
- res.send(JSON.stringify({ Hello: 'World'}));
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/xmlhttprequest/xmlhttprequest_01.html'));
 });
 
 
