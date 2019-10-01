@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
  res.send(JSON.stringify({ Hello: 'World'}));
 });
 
-app.use(express.static('xmlhttprequest'))
+app.use('/xmlhttprequest', express.static(path.join(__dirname, 'public')))
 
 app.listen(port, function () {
  console.log(`Example app listening on port !`);
